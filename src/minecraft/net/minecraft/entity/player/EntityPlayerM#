@@ -1,0 +1,16 @@
+***************
+*** 274,279 ****
+                  {
+                      Chunk var10 = (Chunk)var11.next();
+                      this.getServerForPlayer().getEntityTracker().func_85172_a(this, var10);
+                  }
+              }
+          }
+--- 275,281 ----
+                  {
+                      Chunk var10 = (Chunk)var11.next();
+                      this.getServerForPlayer().getEntityTracker().func_85172_a(this, var10);
++                     MinecraftForge.EVENT_BUS.post(new ChunkWatchEvent.Watch(var10.getChunkCoordIntPair(), this));
+                  }
+              }
+          }

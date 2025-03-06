@@ -1,0 +1,12 @@
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader init
+FINE: ModLoader 1.4.7 Initializing...
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Adding mods from C:\Users\Iñaki Olcese\Desktop\Modding\eclipse\Client\bin
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Directory found.
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_SprintKey 1.4.7" from mod_SprintKey.class
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_SprintKey 1.4.7"
+mar 06, 2025 12:03:44 PM net.minecraft.src.ModLoader addAllRenderers
+FINE: Initialized

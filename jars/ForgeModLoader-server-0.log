@@ -1,0 +1,63 @@
+2025-03-06 15:16:21 [INFO] [ForgeModLoader] Forge Mod Loader version 4.7.35.556 for Minecraft 1.4.7 loading
+2025-03-06 15:16:21 [INFO] [ForgeModLoader] Downloading file http://files.minecraftforge.net/fmllibs/argo-2.25.jar
+2025-03-06 15:16:21 [INFO] [ForgeModLoader] Downloading file http://files.minecraftforge.net/fmllibs/guava-12.0.1.jar
+2025-03-06 15:16:21 [INFO] [ForgeModLoader] Downloading file http://files.minecraftforge.net/fmllibs/asm-all-4.0.jar
+2025-03-06 15:16:21 [INFO] [ForgeModLoader] Downloading file http://files.minecraftforge.net/fmllibs/bcprov-jdk15on-147.jar
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] There were errors during initial FML setup. Some files failed to download or were otherwise corrupted. You will need to manually obtain the following files from these download links and ensure your lib directory is clean. 
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] *** Download http://files.minecraftforge.net/fmllibs/argo-2.25.jar
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] *** Download http://files.minecraftforge.net/fmllibs/guava-12.0.1.jar
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] *** Download http://files.minecraftforge.net/fmllibs/asm-all-4.0.jar
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] *** Download http://files.minecraftforge.net/fmllibs/bcprov-jdk15on-147.jar
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] <===========>
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The following is the errors that caused the setup to fail. They may help you diagnose and resolve the issue
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The downloaded file argo-2.25.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting bb672829fde76cb163004752b86b0484bd0a7f4b). The download did not succeed correctly and the file has been deleted. Please try launching again.
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The downloaded file guava-12.0.1.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting b8e78b9af7bf45900e14c6f958486b6ca682195f). The download did not succeed correctly and the file has been deleted. Please try launching again.
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The downloaded file asm-all-4.0.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting 98308890597acb64047f7e896638e0d98753ae82). The download did not succeed correctly and the file has been deleted. Please try launching again.
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The downloaded file bcprov-jdk15on-147.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting b6f5d9926b0afbde9f4dbe3db88c5247be7794bb). The download did not succeed correctly and the file has been deleted. Please try launching again.
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] <<< ==== >>>
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] The following is diagnostic information for developers to review.
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] Error details
+java.lang.RuntimeException: The downloaded file argo-2.25.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting bb672829fde76cb163004752b86b0484bd0a7f4b). The download did not succeed correctly and the file has been deleted. Please try launching again.
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.performDownload(RelaunchLibraryManager.java:548)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.downloadFile(RelaunchLibraryManager.java:467)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.handleLaunch(RelaunchLibraryManager.java:132)
+	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:155)
+	at cpw.mods.fml.relauncher.FMLRelauncher.relaunchServer(FMLRelauncher.java:133)
+	at cpw.mods.fml.relauncher.FMLRelauncher.handleServerRelaunch(FMLRelauncher.java:33)
+	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1376)
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] Error details
+java.lang.RuntimeException: The downloaded file guava-12.0.1.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting b8e78b9af7bf45900e14c6f958486b6ca682195f). The download did not succeed correctly and the file has been deleted. Please try launching again.
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.performDownload(RelaunchLibraryManager.java:548)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.downloadFile(RelaunchLibraryManager.java:467)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.handleLaunch(RelaunchLibraryManager.java:132)
+	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:155)
+	at cpw.mods.fml.relauncher.FMLRelauncher.relaunchServer(FMLRelauncher.java:133)
+	at cpw.mods.fml.relauncher.FMLRelauncher.handleServerRelaunch(FMLRelauncher.java:33)
+	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1376)
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] Error details
+java.lang.RuntimeException: The downloaded file asm-all-4.0.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting 98308890597acb64047f7e896638e0d98753ae82). The download did not succeed correctly and the file has been deleted. Please try launching again.
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.performDownload(RelaunchLibraryManager.java:548)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.downloadFile(RelaunchLibraryManager.java:467)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.handleLaunch(RelaunchLibraryManager.java:132)
+	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:155)
+	at cpw.mods.fml.relauncher.FMLRelauncher.relaunchServer(FMLRelauncher.java:133)
+	at cpw.mods.fml.relauncher.FMLRelauncher.handleServerRelaunch(FMLRelauncher.java:33)
+	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1376)
+2025-03-06 15:16:21 [SEVERE] [ForgeModLoader] Error details
+java.lang.RuntimeException: The downloaded file bcprov-jdk15on-147.jar has an invalid checksum e04c5335922c5e457f0a7cd62c93c4a7f699f829 (expecting b6f5d9926b0afbde9f4dbe3db88c5247be7794bb). The download did not succeed correctly and the file has been deleted. Please try launching again.
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.performDownload(RelaunchLibraryManager.java:548)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.downloadFile(RelaunchLibraryManager.java:467)
+	at cpw.mods.fml.relauncher.RelaunchLibraryManager.handleLaunch(RelaunchLibraryManager.java:132)
+	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:155)
+	at cpw.mods.fml.relauncher.FMLRelauncher.relaunchServer(FMLRelauncher.java:133)
+	at cpw.mods.fml.relauncher.FMLRelauncher.handleServerRelaunch(FMLRelauncher.java:33)
+	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1376)
+2025-03-06 15:16:21 [INFO] [STDERR] Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: A fatal error occured and FML cannot continue
+2025-03-06 15:16:21 [INFO] [STDERR] 	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:175)
+2025-03-06 15:16:21 [INFO] [STDERR] 	at cpw.mods.fml.relauncher.FMLRelauncher.relaunchServer(FMLRelauncher.java:133)
+2025-03-06 15:16:21 [INFO] [STDERR] 	at cpw.mods.fml.relauncher.FMLRelauncher.handleServerRelaunch(FMLRelauncher.java:33)
+2025-03-06 15:16:21 [INFO] [STDERR] 	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1376)
+2025-03-06 15:16:21 [INFO] [STDERR] Caused by: java.lang.RuntimeException: A fatal error occured and FML cannot continue
+2025-03-06 15:16:21 [INFO] [STDERR] 	at cpw.mods.fml.relauncher.RelaunchLibraryManager.handleLaunch(RelaunchLibraryManager.java:228)
+2025-03-06 15:16:21 [INFO] [STDERR] 	at cpw.mods.fml.relauncher.FMLRelauncher.setupHome(FMLRelauncher.java:155)
+2025-03-06 15:16:21 [INFO] [STDERR] 	... 3 more

@@ -1,0 +1,33 @@
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:8: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenseHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:9: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenserHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderHelper.java:39: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenseHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderHelper.java:40: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenserHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\registry\GameRegistry.java:39: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenseHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\registry\GameRegistry.java:40: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+import cpw.mods.fml.common.IDispenserHandler;
+                          ^
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderModContainer.java:528: warning: [deprecation] registerDispenserHandler(IDispenserHandler) in GameRegistry has been deprecated
+            GameRegistry.registerDispenserHandler(ModLoaderHelper.buildDispenseHelper(mod));
+                        ^
+src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:11: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+public class ModLoaderDispenseHelper implements IDispenserHandler
+                                                ^
+src\minecraft\net\minecraft\src\ModLoader.java:638: warning: [deprecation] registerBlock(Block) in GameRegistry has been deprecated
+        GameRegistry.registerBlock(block);
+                    ^
+src\minecraft\net\minecraft\src\ModLoader.java:649: warning: [deprecation] registerBlock(Block,Class<? extends ItemBlock>) in GameRegistry has been deprecated
+        GameRegistry.registerBlock(block, itemclass);
+                    ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 warnings

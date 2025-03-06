@@ -1,0 +1,41 @@
+***************
+*** 1346,1357 ****
+          }
+  
+          this.generateHeightMap();
+-         Iterator var10 = this.chunkTileEntityMap.values().iterator();
+- 
+-         while (var10.hasNext())
+-         {
+-             TileEntity var11 = (TileEntity)var10.next();
+-             var11.updateContainingBlockInfo();
+          }
+      }
+  
+--- 1470,1495 ----
+          }
+  
+          this.generateHeightMap();
++ 
++         List<TileEntity> invalidList = new ArrayList<TileEntity>();
++         iterator = chunkTileEntityMap.values().iterator();
++         while (iterator.hasNext())
++         {
++             TileEntity tileEntity = (TileEntity)iterator.next();
++             int x = tileEntity.xCoord & 15;
++             int y = tileEntity.yCoord;
++             int z = tileEntity.zCoord & 15;
++             Block block = tileEntity.getBlockType();
++             if (block == null || block.blockID != getBlockID(x, y, z) || tileEntity.getBlockMetadata() != getBlockMetadata(x, y, z))
++             {
++                 invalidList.add(tileEntity);
++             }
++             tileEntity.updateContainingBlockInfo();
++         }
++ 
++         for (TileEntity tileEntity : invalidList)
++         {
++             tileEntity.invalidate();
+          }
+      }
+  

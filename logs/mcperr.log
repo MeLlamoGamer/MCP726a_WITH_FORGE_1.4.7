@@ -1,0 +1,78 @@
+15:08:12 - !! renaming disabled !!
+15:09:09 - '"javac" -encoding UTF-8 -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib;lib\...' failed : 1
+15:09:09 - 
+15:09:09 - == ERRORS FOUND ==
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:8: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenseHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:9: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenserHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderHelper.java:39: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenseHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderHelper.java:40: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenserHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\registry\GameRegistry.java:39: warning: [deprecation] IDispenseHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenseHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\registry\GameRegistry.java:40: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - import cpw.mods.fml.common.IDispenserHandler;
+15:09:09 -                           ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderModContainer.java:528: warning: [deprecation] registerDispenserHandler(IDispenserHandler) in GameRegistry has been deprecated
+15:09:09 -             GameRegistry.registerDispenserHandler(ModLoaderHelper.buildDispenseHelper(mod));
+15:09:09 -                         ^
+15:09:09 - 
+15:09:09 - src\minecraft\cpw\mods\fml\common\modloader\ModLoaderDispenseHelper.java:11: warning: [deprecation] IDispenserHandler in cpw.mods.fml.common has been deprecated
+15:09:09 - public class ModLoaderDispenseHelper implements IDispenserHandler
+15:09:09 -                                                 ^
+15:09:09 - 
+15:09:09 - src\minecraft\net\minecraft\client\renderer\entity\RenderPlayer.java:431: error: cannot find symbol
+15:09:09 -                 for (var27 = 0; var27 < var21.getItem().getRenderPasses(var21.getItemDamage()); ++var27)
+15:09:09 -                                                                         ^
+15:09:09 - 
+15:09:09 -   symbol:   variable var21
+15:09:09 -   location: class RenderPlayer
+15:09:09 - src\minecraft\net\minecraft\client\renderer\entity\RenderPlayer.java:431: error: cannot find symbol
+15:09:09 -                 for (var27 = 0; var27 < var21.getItem().getRenderPasses(var21.getItemDamage()); ++var27)
+15:09:09 -                                         ^
+15:09:09 - 
+15:09:09 -   symbol:   variable var21
+15:09:09 -   location: class RenderPlayer
+15:09:09 - src\minecraft\net\minecraft\src\ModLoader.java:638: warning: [deprecation] registerBlock(Block) in GameRegistry has been deprecated
+15:09:09 -         GameRegistry.registerBlock(block);
+15:09:09 -                     ^
+15:09:09 - 
+15:09:09 - src\minecraft\net\minecraft\src\ModLoader.java:649: warning: [deprecation] registerBlock(Block,Class<? extends ItemBlock>) in GameRegistry has been deprecated
+15:09:09 -         GameRegistry.registerBlock(block, itemclass);
+15:09:09 -                     ^
+15:09:09 - 
+15:09:09 - 2 errors
+15:09:09 - 10 warnings
+15:09:09 - ==================
+15:09:09 - 
+15:09:09 - Client recompile failed, correct source then rerun updatemd5
+15:13:27 - !! Can not find server sources, try decompiling !!
+15:13:53 - !! Can not find server sources, try decompiling !!
+15:34:39 - '"javac" -encoding UTF-8 -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "lib;lib\...' failed : 1
+15:34:39 - 
+15:34:39 - == ERRORS FOUND ==
+15:34:39 - 
+15:34:39 - src\minecraft\net\minecraft\src\mod_SprintKey.java:25: error: unmappable character for encoding UTF-8
+15:34:39 -             // Detecta si se est?n presionando las teclas LControl y W para iniciar el sprint
+15:34:39 -                                 ^
+15:34:39 - 
+15:34:39 - 1 error
+15:34:39 - ==================
+15:34:39 - 
+15:34:39 - !! Can not find server sources, try decompiling !!
+15:35:16 - !! Can not find server sources, try decompiling !!
+15:35:31 - !! Can not find server md5s !!

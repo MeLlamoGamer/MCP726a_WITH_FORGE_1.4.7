@@ -1,0 +1,17 @@
+***************
+*** 159,165 ****
+  
+                  var47 = var7 - 39;
+                  var22 = var47 - 10;
+-                 var23 = this.mc.thePlayer.getTotalArmorValue();
+                  var24 = -1;
+  
+                  if (this.mc.thePlayer.isPotionActive(Potion.regeneration))
+--- 161,167 ----
+  
+                  var47 = var7 - 39;
+                  var22 = var47 - 10;
++                 var23 = ForgeHooks.getTotalArmorValue(mc.thePlayer);
+                  var24 = -1;
+  
+                  if (this.mc.thePlayer.isPotionActive(Potion.regeneration))

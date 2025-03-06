@@ -1,0 +1,30 @@
+package net.minecraft.src;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.InputEvent;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Keyboard;
+
+@Mod(modid = "SprintKey", name = "Sprint Key Mod", version = "1.4.7")
+public class mod_SprintKey {
+
+    private final Minecraft mc = Minecraft.getMinecraft();
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+        System.out.println("SprintKey mod cargado correctamente!");
+        // Registrar el evento de entrada de teclado
+        cpw.mods.fml.common.FMLCommonHandler.instance().bus().register(this);
+    }
+
+    @SubscribeEvent
+    public void onKeyInput(InputEvent.KeyInputEvent event) {
+        if (mc.thePlayer != null) {
+            if (Keyboard.isKeyDown(Keyboard.KEY_LCONTROL) && Keyboard.isKeyDown(Keyboard.KEY_W)) {
+                mc.thePlayer.setSprinting(true);
+            }
+        }
+    }
+}
